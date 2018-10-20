@@ -14,7 +14,7 @@ namespace ConnectToYandexDictionary_Http_Trig
 {
     public static class YandexDictionaryFunc
     {
-        private const string AppKey = "dict.1.1.20181020T041810Z.d42863121b9eda55.a404b472337bf4d8b28611a7d8eccfe4a7de39c6";
+        private const string AppKey = "";
         private const string BaseUrl = "https://dictionary.yandex.net/api/v1/dicservice.json/lookup?";
         [FunctionName("YandexDictionaryFunc")]
         public static IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]HttpRequest req, TraceWriter log)
@@ -40,7 +40,7 @@ namespace ConnectToYandexDictionary_Http_Trig
                 }
                 catch (Exception e)
                 {
-                    log.Error("Внимание Ошибка!", e);
+                    log.Error("Г‚Г­ГЁГ¬Г Г­ГЁГҐ ГЋГёГЁГЎГЄГ !", e);
                 }
 
             }
@@ -84,7 +84,7 @@ namespace ConnectToYandexDictionary_Http_Trig
 
             public string ReturnSuccessfulMessage()
             {
-                return "Инициализация прошла успешно";
+                return "Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї ГЇГ°Г®ГёГ«Г  ГіГ±ГЇГҐГёГ­Г®";
             }
         }
     }
