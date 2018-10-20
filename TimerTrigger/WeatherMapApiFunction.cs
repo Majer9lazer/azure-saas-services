@@ -9,7 +9,7 @@ namespace TimerTrigger
     public static class WeatherMapApiFunction
     {
         private const string BaseAddress = "https://samples.openweathermap.org/data/2.5/weather?";
-        private const string AppId = "2350fd726e8289f381b01ea1d73621a3";
+        private const string AppId = "";
         private const string Almaty = "Almaty";
         private const string Astana = "Astana";
         private const string Chimkent = "Chimkent";
