@@ -4,8 +4,6 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
-
-
 namespace TimerTrigger
 {
     public static class WeatherMapApiFunction
